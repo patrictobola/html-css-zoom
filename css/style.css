@@ -40,6 +40,10 @@ header a {
   border-radius: 5px;
 }
 
+header a:hover {
+  color: lightblue;
+}
+
 /* Main  */
 
 .user-section {
@@ -47,6 +51,23 @@ header a {
   gap: 5px;
 }
 
+.card {
+  position: relative;
+  height: 140px;
+}
+
+.card-user {
+  position: absolute;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  left: 0;
+  top: 100%;
+  transform: translate(0, -100%);
+  padding: 5px 5px;
+}
+.card-user span {
+  margin-left: 5px;
+}
 /* Footer  */
 
 .nav-footer {
@@ -69,6 +90,10 @@ header a {
 .nav-command i {
   font-size: 2rem;
   padding-bottom: 5px;
+}
+
+.button:hover i {
+  color: green;
 }
 
 .nav-command.room {
