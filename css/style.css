@@ -23,7 +23,6 @@ main {
 footer {
   height: 80px;
   background-color: #222;
-  justify-content: space-between;
 }
 
 a {
@@ -48,6 +47,28 @@ header a {
   gap: 5px;
 }
 
+/* Footer  */
+
+.nav-footer {
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-command {
+  width: calc(100% / 3);
+}
+
+.quit-room {
+  justify-content: end;
+  height: 100%;
+}
+.quit-room a {
+  background-color: #4c4c4c;
+  line-height: 80px;
+  color: red;
+  padding: 0 15px;
+}
 /* Utilities  */
 
 .flex {
