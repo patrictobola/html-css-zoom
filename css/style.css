@@ -3,3 +3,68 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+/* Generics  */
+body {
+  color: white;
+}
+
+header {
+  height: 40px;
+  justify-content: end;
+  background-color: black;
+  flex-shrink: 0;
+}
+
+main {
+  overflow-y: auto;
+}
+
+footer {
+  height: 80px;
+  background-color: #222;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  line-height: 25px;
+}
+
+/* Header */
+
+header a {
+  margin: 5px 5px;
+  padding: 2px 5px;
+  background-color: #4c4c4c;
+  border-radius: 5px;
+}
+
+/* Main  */
+
+.user-section {
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+/* Utilities  */
+
+.flex {
+  display: flex;
+}
+
+.debug {
+  border: 1px dashed white;
+}
+
+.container {
+  margin: 20px auto;
+  justify-content: center;
+  height: calc(100vh - 160px);
+}
+
+.wrapper {
+  height: 100vh;
+  background-color: #000;
+}
